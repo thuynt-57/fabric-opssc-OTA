@@ -12,6 +12,7 @@ import { finalPackage as finalPackageChaincode, package as packageChaincode } fr
 import { Channel, Endorser } from 'fabric-common';
 import crypto from 'crypto';
 import { logger } from './logger';
+import Long from "long";
 
 export interface ChaincodeDefinition {
   name: string;
